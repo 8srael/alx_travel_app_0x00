@@ -5,7 +5,7 @@
 from django.core.management.base import BaseCommand
 
 from django.contrib.auth.models import User
-from alx_travel_app.listings.models import Listing, Booking, Review
+from listings.models import Listing, Booking, Review
 
 from datetime import date, timedelta
 
